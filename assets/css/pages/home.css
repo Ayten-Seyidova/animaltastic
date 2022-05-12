@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #bba1be, #89c4c4);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.animal-btn {
+    background: rgba(7, 16, 7, 0.2);
+    border: 2px solid rgba(7, 16, 7, 0.3);
+    color: #f5f5f5;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px 30px;
+    transition: .3s all ease-in-out;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.animal-btn:hover {
+    box-shadow: 0 0 5px 0 rgba(7, 16, 7, 0.6);
+}
+
+.animal-btn:active {
+    transform: scale(0.95);
+}
+
+#imgSection img {
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
